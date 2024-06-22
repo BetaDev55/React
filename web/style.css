@@ -1,0 +1,1152 @@
+    * {
+    margin: 0;
+    padding: 0;
+    }
+    #inputBorde{
+        width: 100px;
+        height: 100px;
+        display: flex-inline;
+        margin-bottom: 2vh;
+        }
+    button{
+    height: 10vh;
+    width: 20vw;
+    display: flex-inline;
+    }
+    .size {
+    min-height: 100vh;
+    max-height: 650vh;
+    height: 100%;
+    }
+    #input {
+    height: 5vh;
+    width: 50vw;
+    display: block;
+    margin-bottom: 2rem;
+    }
+    @keyframes fadeIn {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0.2;
+    }
+    }
+    .h11 {
+    display: block;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    font-size: 5rem;
+    }
+    .box {
+    margin-top: 5vh;
+    }
+    .colorsBtn{
+        height: 25vh;
+        min-width: 50vw;
+        max-width: 100vw;
+        width: 100%;
+        font-weight: bold;
+        font-size: 1.7rem;
+    }
+    .colorsImg{
+        min-width: 50vw;
+        max-width: 100vw;
+        width: 100%;
+        height: 25vh;
+        margin-bottom: 3vh;
+    }
+    .checkBox{
+        margin-top: -0.5vh;
+    }
+    #html g path:nth-child(1){
+        stroke-dasharray: 1023;
+        stroke-dashoffset: 1023;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawH 2s ease forwards, fillH 3s ease 1000ms forwards, strokeHH 2s ease 4000ms forwards;
+    }
+    #html path:nth-child(2){
+        stroke-dasharray: 2390;
+        stroke-dashoffset: 2390;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawH1 2s ease forwards, fillH1 3s ease 1500ms forwards, strokeHH 2s ease 4000ms forwards;
+    }
+    #html path:nth-child(3){
+        stroke-dasharray: 1247;
+        stroke-dashoffset: 1247;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawH2 2s ease forwards, fillH2 3s ease 2000ms forwards, strokeHH 2s ease 4000ms forwards;
+    }
+    #html path:nth-child(4){
+        stroke-dasharray: 1260;
+        stroke-dashoffset: 1260;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawH3 2s ease forwards, fillH3 3s ease 2500ms forwards, strokeHH 2s ease 4000ms forwards;
+    }
+    #html path:nth-child(5){
+        stroke-dasharray: 498;
+        stroke-dashoffset: 498;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawH4 2s ease forwards, fillH4 3s ease 3000ms forwards, strokeHH 2s ease 4000ms forwards;
+    }
+    #html path:nth-child(6){
+        stroke-dasharray: 653;
+        stroke-dashoffset: 653;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawH5 2s ease forwards, fillH5 3s ease 3500ms forwards, strokeHH 2s ease 4000ms forwards;
+    }
+    #html path:nth-child(7){
+        stroke-dasharray: 1453;
+        stroke-dashoffset: 1453;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawH6 2s ease forwards, fillH6 3s ease 4000ms forwards, strokeHH 2s ease 4000ms forwards;
+    }
+    #html path:nth-child(8){
+        stroke-dasharray: 362;
+        stroke-dashoffset: 362;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawH7 2s ease forwards, fillH7 3s ease 4500ms forwards, strokeHH 2s ease 4000ms forwards;
+    }
+    #html path:nth-child(9){
+        stroke-dasharray: 359;
+        stroke-dashoffset: 359;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawH8 2s ease forwards, fillH8 3s ease 4000ms forwards, strokeHH 2s ease 4000ms forwards;
+    }
+
+    @keyframes drawH {
+        to {
+            stroke-dashoffset: 0;
+            animation-delay: 1;
+        }
+    }
+    @keyframes drawH1 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawH2 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawH3 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawH4 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawH5 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawH6 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawH7 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawH8 {
+        to {
+            stroke-dashoffset: 0; 
+        }
+    }
+    @keyframes strokeHH {
+        to{
+            stroke: transparent;
+        }
+    }
+    @keyframes fillH {
+        to {
+            fill: #040404;
+        }
+    }
+    @keyframes fillH1 {
+        to {
+            fill: #e44c24;
+        }
+    }
+    @keyframes fillH2 {
+        to {
+            fill: #f3f2f2;
+        }
+    }
+    @keyframes fillH3 {
+        to {
+            fill: #f3632b;
+        }
+    }
+    @keyframes fillH4 {
+        to {
+            fill: #ef9272;
+        }
+    }
+    @keyframes fillH5 {
+        to {
+            fill: #e47454;
+        }
+    }
+    @keyframes fillH6 {
+        to {
+            fill: #eca494;
+        }
+    }
+    @keyframes fillH7 {
+        to {
+            fill: #f4ac84;
+        }
+    }
+    @keyframes fillH8 {
+        to {
+            fill: #e83c28;
+        }
+    }
+    #css g path:nth-child(1){
+        stroke-dasharray: 1783;
+        stroke-dashoffset: 1783;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawC 2s ease forwards, fillC 3s ease 1000ms forwards, strokeCH 2s ease 4000ms forwards;
+    }
+    #css path:nth-child(2){
+        stroke-dasharray: 3290;
+        stroke-dashoffset: 3290;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawC1 2s ease forwards, fillC1 3s ease 1500ms forwards, strokeCH 2s ease 4000ms forwards;
+    }
+    #css path:nth-child(3){
+        stroke-dasharray: 1703;
+        stroke-dashoffset: 1703;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawC2 2s ease forwards, fillC2 3s ease 2000ms forwards, strokeCH 2s ease 4000ms forwards;
+    }
+    #css path:nth-child(4){
+        stroke-dasharray: 1028;
+        stroke-dashoffset: 1028;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawC3 2s ease forwards, fillC3 3s ease 2500ms forwards, strokeCH 2s ease 4000ms forwards;
+    }
+    #css path:nth-child(5){
+        stroke-dasharray: 88;
+        stroke-dashoffset: 88;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawC4 2s ease forwards, fillC4 3s ease 3000ms forwards, strokeCH 2s ease 4000ms forwards;
+    }
+    #css path:nth-child(6){
+        stroke-dasharray: 340;
+        stroke-dashoffset: 340;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawC5 2s ease forwards, fillC5 3s ease 3500ms forwards, strokeCH 2s ease 4000ms forwards;
+    }
+    #css path:nth-child(7){
+        stroke-dasharray: 0;
+        stroke-dashoffset: 0;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawC6 2s ease forwards, fillC6 3s ease 4000ms forwards, strokeCH 2s ease 4000ms forwards;
+    }
+    #css path:nth-child(8){
+        stroke-dasharray: 105;
+        stroke-dashoffset: 105;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawC7 2s ease forwards, fillC7 3s ease 4500ms forwards, strokeCH 2s ease 4000ms forwards;
+    }
+    #css path:nth-child(9){
+        stroke-dasharray: 200;
+        stroke-dashoffset: 200;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawC8 2s ease forwards, fillC8 3s ease 4000ms forwards, strokeCH 2s ease 4000ms forwards;
+    }
+
+    @keyframes drawC {
+        to {
+            stroke-dashoffset: 0;
+            animation-delay: 1;
+        }
+    }
+    @keyframes drawC1 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawC2 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawC3 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawC4 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawC5 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawC6 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawC7 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawC8 {
+        to {
+            stroke-dashoffset: 0; 
+        }
+    }
+    @keyframes strokeCH {
+        to{
+            stroke: transparent;
+        }
+    }
+    @keyframes fillC {
+        to {
+            fill: #efeeee;
+        }
+    }
+    @keyframes fillC1 {
+        to {
+            fill: #2364ac;
+        }
+    }
+    @keyframes fillC2 {
+        to {
+            fill: #3c9bd3;
+        }
+    }
+    @keyframes fillC3 {
+        to {
+            fill: #040404;
+        }
+    }
+    @keyframes fillC4 {
+        to {
+            fill: #78bae3;
+        }
+    }
+    @keyframes fillC5 {
+        to {
+            fill: #96acca;
+        }
+    }
+    @keyframes fillC6 {
+        to {
+            fill: #1c5cac;
+        }
+    }
+    @keyframes fillC7 {
+        to {
+            fill: #3c74ac;
+        }
+    }
+    @keyframes fillC8 {
+        to {
+            fill: #1c88b0;
+        }
+    }
+    #js g path:nth-child(1){
+        stroke-dasharray: 1383;
+        stroke-dashoffset: 1383;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawJ 2s ease forwards, fillJ 3s ease 1000ms forwards, strokeJJ 2s ease 4000ms forwards;
+    }
+    #js path:nth-child(2){
+        stroke-dasharray: 530;
+        stroke-dashoffset: 530;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawJ1 2s ease forwards, fillJ1 3s ease 1500ms forwards, strokeJJ 2s ease 4000ms forwards;
+    }
+    #js path:nth-child(3){
+        stroke-dasharray: 2022;
+        stroke-dashoffset: 2022;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawJ2 2s ease forwards, fillJ2 3s ease 2000ms forwards, strokeJJ 2s ease 4000ms forwards;
+    }
+    #js path:nth-child(4){
+        stroke-dasharray: 2641;
+        stroke-dashoffset: 2641;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawJ3 2s ease forwards, fillJ3 3s ease 2500ms forwards, strokeJJ 2s ease 4000ms forwards;
+    }
+    #js path:nth-child(5){
+        stroke-dasharray: 0;
+        stroke-dashoffset: 0;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawJ4 2s ease forwards, fillJ4 3s ease 3000ms forwards, strokeJJ 2s ease 4000ms forwards;
+    }
+    #js path:nth-child(6){
+        stroke-dasharray: 0;
+        stroke-dashoffset: 0;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawJ5 2s ease forwards, fillJ5 3s ease 3500ms forwards, strokeJJ 2s ease 4000ms forwards;
+    }
+    #js path:nth-child(7){
+        stroke-dasharray: 0;
+        stroke-dashoffset: 0;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawJ6 2s ease forwards, fillJ6 3s ease 4000ms forwards, strokeJJ 2s ease 4000ms forwards;
+    }
+    #js path:nth-child(8){
+        stroke-dasharray: 0;
+        stroke-dashoffset: 0;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawJ7 2s ease forwards, fillJ7 3s ease 4500ms forwards, strokeJJ 2s ease 4000ms forwards;
+    }
+    #js path:nth-child(9){
+        stroke-dasharray: 0;
+        stroke-dashoffset: 0;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawJ8 2s ease forwards, fillJ8 3s ease 4000ms forwards, strokeJJ 2s ease 4000ms forwards;
+    }
+    
+    @keyframes drawJ {
+        to {
+            stroke-dashoffset: 0;
+            animation-delay: 1;
+        }
+    }
+    @keyframes drawJ1 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawJ2 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawJ3 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawJ4 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawJ5 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawJ6 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawJ7 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawJ8 {
+        to {
+            stroke-dashoffset: 0; 
+        }
+    }
+    @keyframes strokeJJ {
+        to{
+            stroke: transparent;
+        }
+    }
+    @keyframes fillJ {
+        to {
+            fill: #fbfbfa;
+        }
+    }
+    @keyframes fillJ1 {
+        to {
+            fill: #040404;
+        }
+    }
+    @keyframes fillJ2 {
+        to {
+            fill: #fbdc04;
+        }
+    }
+    @keyframes fillJ3 {
+        to {
+            fill: #d4bc04;
+        }
+    }
+    @keyframes fillJ4 {
+        to {
+            fill: #b46084;
+        }
+    }
+    @keyframes fillJ5 {
+        to {
+            fill: #b4c004;
+        }
+    }
+    @keyframes fillJ6 {
+        to {
+            fill: #b4c004;
+        }
+    }
+    @keyframes fillJ7 {
+        to {
+            fill: #b4c004;
+        }
+    }
+    @keyframes fillJ8 {
+        to {
+            fill: #b4c004;
+        }
+    }
+    #bootstrap g path:nth-child(1){
+        stroke-dasharray: 747;
+        stroke-dashoffset: 747;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawB 2s ease forwards, fillB 3s ease 1000ms forwards, strokeHB 2s ease 4000ms forwards;
+    }
+    #bootstrap path:nth-child(2){
+        stroke-dasharray: 1388;
+        stroke-dashoffset: 1388;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawB1 2s ease forwards, fillB1 3s ease 1500ms forwards, strokeHB 2s ease 4000ms forwards;
+    }
+    #bootstrap path:nth-child(3){
+        stroke-dasharray: 562;
+        stroke-dashoffset: 562;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawB2 2s ease forwards, fillB2 3s ease 2000ms forwards, strokeHB 2s ease 4000ms forwards;
+    }
+    #bootstrap path:nth-child(4){
+        stroke-dasharray: 496;
+        stroke-dashoffset: 496;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawB3 2s ease forwards, fillB3 3s ease 2500ms forwards, strokeHB 2s ease 4000ms forwards;
+    }
+    #bootstrap path:nth-child(5){
+        stroke-dasharray: 8;
+        stroke-dashoffset: 8;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawB4 2s ease forwards, fillB4 3s ease 3000ms forwards, strokeHB 2s ease 4000ms forwards;
+    }
+    #bootstrap path:nth-child(6){
+        stroke-dasharray: 314;
+        stroke-dashoffset: 314;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawB5 2s ease forwards, fillB5 3s ease 3500ms forwards, strokeHB 2s ease 4000ms forwards;
+    }
+    #bootstrap path:nth-child(7){
+        stroke-dasharray: 7;
+        stroke-dashoffset: 7;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawB6 2s ease forwards, fillB6 3s ease 4000ms forwards, strokeHB 2s ease 4000ms forwards;
+    }
+    #bootstrap path:nth-child(8){
+        stroke-dasharray: 0;
+        stroke-dashoffset: 0;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawB7 2s ease forwards, fillB7 3s ease 4500ms forwards, strokeHB 2s ease 4000ms forwards;
+    }
+    #bootstrap path:nth-child(9){
+        stroke-dasharray: 7;
+        stroke-dashoffset: 7;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawB8 2s ease forwards, fillB8 3s ease 4000ms forwards, strokeHB 2s ease 4000ms forwards;
+    }
+
+    @keyframes drawB {
+        to {
+            stroke-dashoffset: 0;
+            animation-delay: 1;
+        }
+    }
+    @keyframes drawB1 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawB2 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawB3 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawB4 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawB5 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawB6 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawB7 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawB8 {
+        to {
+            stroke-dashoffset: 0; 
+        }
+    }
+    @keyframes strokeHB {
+        to{
+            stroke: transparent;
+        }
+    }
+    @keyframes fillB {
+        to {
+            fill: #f7f0fc;
+        }
+    }
+    @keyframes fillB1 {
+        to {
+            fill: #7c14f8;
+        }
+    }
+    @keyframes fillB2 {
+        to {
+            fill: #8c14fc;
+        }
+    }
+    @keyframes fillB3 {
+        to {
+            fill: #6c14f4;
+        }
+    }
+    @keyframes fillB4 {
+        to {
+            fill: #bc8cfc;
+        }
+    }
+    @keyframes fillB5 {
+        to {
+            fill: #9e4cfc;
+        }
+    }
+    @keyframes fillB6 {
+        to {
+            fill: #a863fc;
+        }
+    }
+    @keyframes fillB7 {
+        to {
+            fill: #b47cfc;
+        }
+    }
+    @keyframes fillB8 {
+        to {
+            fill: #9038fc;
+        }
+    }
+    #react g path:nth-child(1){
+        stroke-dasharray: 9158;
+        stroke-dashoffset: 9158;
+        fill: transparent;
+        stroke: 10;
+        stroke: rgb(0, 0, 0);
+        animation: drawR 10s ease forwards, fillR 3s ease 3000ms forwards, strokeHB 2s ease 5000ms forwards;
+    }
+    #react path:nth-child(2){
+        stroke-dasharray: 11695;
+        stroke-dashoffset: 11695;
+        fill: transparent;
+        stroke: 10;
+        stroke: rgb(0, 0, 0);
+        animation: drawR1 10s ease forwards, fillR1 3s ease 3000ms forwards, strokeHB 2s ease 5000ms forwards;
+    }
+    #react path:nth-child(3){
+        stroke-dasharray:556;
+        stroke-dashoffset: 556;
+        fill: transparent;
+        stroke: 10;
+        stroke: rgb(0, 0, 0);
+        animation: drawR2 2s ease forwards, fillR2 3s ease 2000ms forwards, strokeHB 2s ease 5000ms forwards;
+    }
+    #react path:nth-child(4){
+        stroke-dasharray: 481;
+        stroke-dashoffset: 481;
+        fill: transparent;
+        stroke: 10;
+        stroke: rgb(0, 0, 0);
+        animation: drawR3 2s ease forwards, fillR3 3s ease 2000ms forwards, strokeHB 2s ease 5000ms forwards;
+    }
+    #react path:nth-child(5){
+        stroke-dasharray: 479;
+        stroke-dashoffset: 479;
+        fill: transparent;
+        stroke: 10;
+        stroke: rgb(0, 0, 0);
+        animation: drawR4 2s ease forwards, fillR4 3s ease 2000ms forwards, strokeHB 2s ease 5000ms forwards;
+    }
+    #react path:nth-child(6){
+        stroke-dasharray: 327;
+        stroke-dashoffset: 327;
+        fill: transparent;
+        stroke: 10;
+        stroke: rgb(0, 0, 0);
+        animation: drawR5 2s ease forwards, fillR5 3s ease 2000ms forwards, strokeHB 2s ease 5000ms forwards;
+    }
+    #react path:nth-child(7){
+        stroke-dasharray: 337;
+        stroke-dashoffset: 337;
+        fill: transparent;
+        stroke: 10;
+        stroke: rgb(0, 0, 0);
+        animation: drawR6 2s ease forwards, fillR6 3s ease 2000ms forwards, strokeHB 2s ease 5000ms forwards;
+    }
+    #react path:nth-child(8){
+        stroke-dasharray: 18;
+        stroke-dashoffset: 18;
+        fill: transparent;
+        stroke: 10;
+        stroke: rgb(0, 0, 0);
+        animation: drawR7 2s ease forwards, fillR7 3s ease 2000ms forwards, strokeHB 2s ease 5000ms forwards;
+    }
+    #react path:nth-child(9){
+        stroke-dasharray: 11;
+        stroke-dashoffset: 11;
+        fill: transparent;
+        stroke: 10;
+        stroke: rgb(0, 0, 0);
+        animation: drawR8 2s ease forwards, fillR8 3s ease 2000ms forwards, strokeHB 2s ease 5000ms forwards;
+    }
+    #react path:nth-child(10){
+        stroke-dasharray: 7;
+        stroke-dashoffset: 7;
+        fill: transparent;
+        stroke: 10;
+        stroke: rgb(0, 0, 0);
+        animation: drawR9 2s ease forwards, fillR9 3s ease 2000ms forwards, strokeHB 2s ease 5000ms forwards;
+    }
+    #react path:nth-child(11){
+        stroke-dasharray: 2;
+        stroke-dashoffset: 2;
+        fill: transparent;
+        stroke: 10;
+        stroke: rgb(0, 0, 0);
+        animation: drawR10 2s ease forwards, fillR10 3s ease 2000ms forwards, strokeHB 2s ease 5000ms forwards;
+    }
+    #react path:nth-child(12){
+        stroke-dasharray: 26;
+        stroke-dashoffset: 26;
+        fill: transparent;
+        stroke: 10;
+        stroke: rgb(0, 0, 0);
+        animation: drawR11 2s ease forwards, fillR11 3s ease 2000ms forwards, strokeHB 2s ease 5000ms forwards;
+    }
+    #react path:nth-child(13){
+        stroke-dasharray: 565;
+        stroke-dashoffset: 565;
+        fill: transparent;
+        stroke: 10;
+        stroke: rgb(0, 0, 0);
+        animation: drawR12 2s ease forwards, fillR12 3s ease 2000ms forwards, strokeHB 2s ease 5000ms forwards;
+    }
+        @keyframes drawR {
+        to {
+            stroke-dashoffset: 0;
+            animation-delay: 1;
+        }
+    }
+    @keyframes drawR1 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawR2 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawR3 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawR4 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawR5 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawR6 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawR7 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawR8 {
+        to {
+            stroke-dashoffset: 0; 
+        }
+    }
+    @keyframes drawR9 {
+        to {
+            stroke-dashoffset: 0; 
+        }
+    }
+    @keyframes drawR10 {
+        to {
+            stroke-dashoffset: 0; 
+        }
+    }
+    @keyframes drawR11 {
+        to {
+            stroke-dashoffset: 0; 
+        }
+    }
+    @keyframes drawR12 {
+        to {
+            stroke-dashoffset: 0; 
+        }
+    }
+    @keyframes strokeHB {
+        to{
+            stroke: transparent;
+        }
+    }
+    @keyframes fillR {
+        to {
+            fill: transparent;
+        }
+    }
+    @keyframes fillR1 {
+        to {
+            fill: #00D8FF;
+        }
+    }
+    @keyframes fillR2 {
+        to {
+            fill: #00D8FF;
+        }
+    }
+    @keyframes fillR3 {
+        to {
+            fill: #00D8FF;
+        }
+    }
+    @keyframes fillR4 {
+        to {
+            fill: #00D8FF;
+        }
+    }
+    @keyframes fillR5 {
+        to {
+            fill: #00D8FF;
+        }
+    }
+    @keyframes fillR6 {
+        to {
+            fill: #00D8FF;
+        }
+    }
+    @keyframes fillR7 {
+        to {
+            fill: #00D8FF;
+        }
+    }
+    @keyframes fillR8 {
+        to {
+            fill: #00D8FF;
+        }
+    }
+    @keyframes fillR9 {
+        to {
+            fill: #00D8FF;
+        }
+    }
+    @keyframes fillR10 {
+        to {
+            fill: #00D8FF;
+        }
+    }
+    @keyframes fillR11 {
+        to {
+            fill: #00D8FF;
+        }
+    }
+    @keyframes fillR12 {
+        to {
+            fill: #00D8FF;
+        }
+    }
+    #svg g path:nth-child(1){
+        stroke-dasharray: 2044;
+        stroke-dashoffset: 2044;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawS 10s ease forwards, fillS 3s ease 1000ms forwards, strokeHS 2s ease 4000ms forwards;
+    }
+    #svg path:nth-child(2){
+        stroke-dasharray: 3596;
+        stroke-dashoffset: 3596;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawS1 10s ease forwards, fillS1 3s ease 1500ms forwards, strokeHS 2s ease 4000ms forwards;
+    }
+    #svg path:nth-child(3){
+        stroke-dasharray: 242;
+        stroke-dashoffset: 242;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawS2 10s ease forwards, fillS2 3s ease 2000ms forwards, strokeHS 2s ease 4000ms forwards;
+    }
+    #svg path:nth-child(4){
+        stroke-dasharray: 225;
+        stroke-dashoffset: 225;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawS3 10s ease forwards, fillS3 3s ease 2500ms forwards, strokeHS 2s ease 4000ms forwards;
+    }
+    #svg path:nth-child(5){
+        stroke-dasharray: 240;
+        stroke-dashoffset: 240;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawS4 10s ease forwards, fillS4 3s ease 2500ms forwards, strokeHS 2s ease 4000ms forwards;
+    }
+    #svg path:nth-child(6){
+        stroke-dasharray: 105;
+        stroke-dashoffset: 105;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawS5 10s ease forwards, fillS5 3s ease 3000ms forwards, strokeHS 2s ease 4000ms forwards;
+    }
+    #svg path:nth-child(7){
+        stroke-dasharray: 93;
+        stroke-dashoffset: 93;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawS6 10s ease forwards, fillS6 3s ease 4000ms forwards, strokeHS 2s ease 4000ms forwards;
+    }
+    #svg path:nth-child(8){
+        stroke-dasharray: 2119;
+        stroke-dashoffset: 2119;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawS7 10s ease forwards, fillS7 3s ease 3000ms forwards, strokeHS 2s ease 4000ms forwards;
+    }
+    #svg path:nth-child(9){
+        stroke-dasharray: 3;
+        stroke-dashoffset: 3;
+        fill: transparent;
+        stroke: 10;
+        stroke: #000;
+        animation: drawS8 2s ease forwards, fillS8 3s ease 4000ms forwards, strokeHS 2s ease 4000ms forwards;
+    }
+    
+    @keyframes drawS {
+        to {
+            stroke-dashoffset: 0;
+            animation-delay: 1;
+        }
+    }
+    @keyframes drawS1 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawS2 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawS3 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawS4 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawS5 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawS6 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawS7 {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    @keyframes drawS8 {
+        to {
+            stroke-dashoffset: 0; 
+        }
+    }
+    @keyframes strokeHS {
+        to{
+            stroke: transparent;
+        }
+    }
+    @keyframes fillS {
+        to {
+            fill: #fbfbfa;
+        }
+    }
+    @keyframes fillS1 {
+        to {
+            fill: #df711b;
+        }
+    }
+    @keyframes fillS2 {
+        to {
+            fill: #242423;
+        }
+    }
+    @keyframes fillS3 {
+        to {
+            fill: #edab76;
+        }
+    }
+    @keyframes fillS4 {
+        to {
+            fill: #e9904c;
+        }
+    }
+    @keyframes fillS5 {
+        to {
+            fill: #ac6424;
+        }
+    }
+    @keyframes fillS6 {
+        to {
+            fill: #f4bc88;
+        }
+    }
+    @keyframes fillS7 {
+        to {
+            fill: #c14406;
+        }
+    }
+    @keyframes fillS8 {
+        to {
+            fill: #ec9c54;
+        }
+    }
